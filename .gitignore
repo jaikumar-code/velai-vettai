@@ -1,0 +1,10 @@
+.velai-vettai/
+./claude
+data/
+profile.json
+cv.md
+applications.csv
+resumes/
+.env
+*credentials*.json
+__pycache__/

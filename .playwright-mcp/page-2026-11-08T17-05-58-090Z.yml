@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [aria-hidden] [ref=e8]
+      - main [ref=e269]:
+        - generic [ref=e273]:
+          - heading "Verify some info before creating an account" [level=1] [ref=e274]
+          - generic [ref=e275]: Google needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.
+        - generic [ref=e280]:
+          - img "Image of QR code to scan with the camera on your mobile device." [ref=e282]
+          - generic [ref=e283]:
+            - heading "Scan the QR code with your phone" [level=2] [ref=e285]
+            - list [ref=e290]:
+              - listitem [ref=e291]:
+                - generic [ref=e292]: Open your Camera app, scan the code, and tap the link.
+              - listitem [ref=e297]:
+                - generic [ref=e298]: Then, follow a few more steps on your phone to complete verification. Depending on your device, you may need to send Google a verification code.
+              - listitem [ref=e303]:
+                - generic [ref=e304]: You’ll need to switch back to this device to continue.
+        - button "Scroll down" [ref=e312]
+    - contentinfo [ref=e60]:
+      - combobox "Change language English (United States)" [ref=e64] [cursor=pointer]:
+        - generic [aria-hidden]:
+          - generic: English (United States)
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e68] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e69]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e71]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e72] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+            - text: Terms
+  - generic [ref=e136]: Verify some info before creating an account Google needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.

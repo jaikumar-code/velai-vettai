@@ -1,0 +1,34 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [aria-hidden] [ref=e6]:
+      - generic [ref=e7]: Loading
+      - progressbar [aria-hidden] [ref=e8]
+    - main [ref=e15]:
+      - generic [ref=e19]:
+        - heading "Create a Google Account" [level=1] [ref=e20]
+        - generic [ref=e21]: Enter your name
+      - generic [ref=e31]:
+        - generic [ref=e36]:
+          - textbox "First name" [active] [ref=e37]
+          - generic [aria-hidden]: First name
+        - generic [ref=e44]:
+          - textbox "Last name (optional)" [ref=e45]
+          - generic [aria-hidden]: Last name (optional)
+      - button "Next" [ref=e53]
+  - contentinfo [ref=e60]:
+    - combobox "Change language English (United States)" [ref=e64] [cursor=pointer]:
+      - generic [aria-hidden]:
+        - generic: English (United States)
+    - list [ref=e66]:
+      - listitem [ref=e67]:
+        - link "Open Google Account Help Center (external, opens in a new window)" [ref=e68] [cursor=pointer]:
+          - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+          - text: Help
+      - listitem [ref=e69]:
+        - link "Privacy Policy (external, opens in a new window)" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+          - text: Privacy
+      - listitem [ref=e71]:
+        - link "Google Terms of Service (external, opens in a new window)" [ref=e72] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+          - text: Terms

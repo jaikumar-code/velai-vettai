@@ -1,0 +1,55 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [aria-hidden] [ref=e8]
+      - main [ref=e77]:
+        - generic [ref=e81]:
+          - heading "Basic information" [level=1] [ref=e82]
+          - generic [ref=e83]: Enter your birthday and gender
+        - generic [ref=e91]:
+          - generic [ref=e93]:
+            - combobox "Month June" [ref=e152] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic [aria-hidden]: Month
+              - generic [aria-hidden]:
+                - generic: June
+            - generic [ref=e105]:
+              - textbox "Day" [ref=e106]: "15"
+              - generic [aria-hidden]: Day
+            - generic [ref=e114]:
+              - textbox "Year" [ref=e115]: "1998"
+              - generic [aria-hidden]: Year
+          - generic [ref=e121]:
+            - combobox "Gender" [expanded] [ref=e122] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic [aria-hidden]: Gender
+            - listbox "Gender" [ref=e154]:
+              - option "Female" [active] [ref=e155] [cursor=pointer]
+              - option "Male" [ref=e156] [cursor=pointer]
+              - option "Rather not say" [ref=e157] [cursor=pointer]
+              - option "Custom" [ref=e158] [cursor=pointer]
+          - link "Why we ask for your birthday and gender" [ref=e125] [cursor=pointer]
+        - button "Next" [ref=e131]
+    - contentinfo [ref=e60]:
+      - combobox "Change language English (United States)" [ref=e64] [cursor=pointer]:
+        - generic [aria-hidden]:
+          - generic: English (United States)
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e68] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e69]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e71]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e72] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+            - text: Terms
+  - generic [ref=e137]: Basic information Enter your birthday and gender
+  - generic [ref=e159]: Maximum of 4 characters entered

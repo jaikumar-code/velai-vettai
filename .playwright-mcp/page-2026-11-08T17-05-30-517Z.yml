@@ -1,0 +1,40 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [aria-hidden] [ref=e8]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - heading "Create a strong password" [level=1] [ref=e215]
+          - generic [ref=e216]: Create a strong password with a mix of letters, numbers and symbols
+        - generic [ref=e225]:
+          - generic [ref=e228]:
+            - generic [ref=e233]:
+              - textbox "Password" [active] [ref=e234]
+              - generic [aria-hidden]: Password
+            - generic [ref=e241]:
+              - textbox "Confirm" [ref=e242]
+              - generic [aria-hidden]: Confirm
+          - generic [ref=e249]:
+            - checkbox "Show password" [ref=e253] [cursor=pointer]
+            - generic [ref=e254]: Show password
+        - button "Next" [ref=e262] [cursor=pointer]
+    - contentinfo [ref=e60]:
+      - combobox "Change language English (United States)" [ref=e64] [cursor=pointer]:
+        - generic [aria-hidden]:
+          - generic: English (United States)
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e68] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e69]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e71]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e72] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+            - text: Terms
+  - generic [ref=e136]: Create a strong password Create a strong password with a mix of letters, numbers and symbols

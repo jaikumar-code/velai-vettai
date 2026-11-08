@@ -1,0 +1,10 @@
+# Copy to ~/.velai-vettai/portals.yml and edit.
+companies:
+  - name: Example Corp
+    ats: greenhouse      # greenhouse | lever | ashby | workday | custom
+    url: https://boards.greenhouse.io/examplecorp
+  - name: Another Co
+    ats: lever
+    url: https://jobs.lever.co/anotherco
+title_keywords_include: ["QA", "SDET", "Test Automation", "Quality"]
+title_keywords_exclude: ["Intern", "Junior", "Manual"]

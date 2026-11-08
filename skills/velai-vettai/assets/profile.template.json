@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "phone": "",
+  "location": "",
+  "relocate": false,
+  "remote_only": false,
+  "target_roles": [],
+  "target_locations": [],
+  "min_match_pct": 75,
+  "max_posting_age_days": 7,
+  "boards": ["Naukri", "LinkedIn", "Himalayas", "Wellfound"],
+  "base_email": "",
+  "daily_run_time": "09:00",
+  "google_sheet_id": "",
+  "notice_period": "",
+  "current_ctc": "",
+  "expected_salary": "",
+  "work_authorization": "",
+  "total_years_experience": "",
+  "paper_size": "A4",
+  "confirmed_extra_skills": [],
+  "answers": {}
+}

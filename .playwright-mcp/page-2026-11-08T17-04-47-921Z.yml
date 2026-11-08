@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [aria-hidden] [ref=e8]
+      - main [ref=e77]:
+        - generic [ref=e81]:
+          - heading "Basic information" [level=1] [ref=e82]
+          - generic [ref=e83]: Enter your birthday and gender
+        - generic [ref=e91]:
+          - generic [ref=e93]:
+            - generic [ref=e97]:
+              - combobox "Month" [expanded] [ref=e98] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic [aria-hidden]: Month
+              - listbox "Month" [ref=e139]:
+                - option "January" [active] [ref=e140] [cursor=pointer]
+                - option "February" [ref=e141] [cursor=pointer]
+                - option "March" [ref=e142] [cursor=pointer]
+                - option "April" [ref=e143] [cursor=pointer]
+                - option "May" [ref=e144] [cursor=pointer]
+                - option "June" [ref=e145] [cursor=pointer]
+                - option "July" [ref=e146] [cursor=pointer]
+                - option "August" [ref=e147] [cursor=pointer]
+                - option "September" [ref=e148] [cursor=pointer]
+                - option "October" [ref=e149] [cursor=pointer]
+                - option "November" [ref=e150] [cursor=pointer]
+                - option "December" [ref=e151] [cursor=pointer]
+            - generic [ref=e105]:
+              - textbox "Day" [ref=e106]
+              - generic [aria-hidden]: Day
+            - generic [ref=e114]:
+              - textbox "Year" [ref=e115]
+              - generic [aria-hidden]: Year
+          - combobox "Gender" [ref=e122] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic [aria-hidden]: Gender
+          - link "Why we ask for your birthday and gender" [ref=e125] [cursor=pointer]
+        - button "Next" [ref=e131]
+    - contentinfo [ref=e60]:
+      - combobox "Change language English (United States)" [ref=e64] [cursor=pointer]:
+        - generic [aria-hidden]:
+          - generic: English (United States)
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e68] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e69]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e71]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e72] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+            - text: Terms
+  - generic [ref=e137]: Basic information Enter your birthday and gender

@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>{{NAME}} - Resume</title>
+<style>
+  @page { margin: 14mm; }
+  body { font: 10.5pt/1.4 Arial, Helvetica, sans-serif; color: #111; }
+  h1 { font-size: 20pt; margin: 0 0 2px; }
+  h2 { font-size: 11pt; text-transform: uppercase; border-bottom: 1px solid #999; margin: 14px 0 6px; padding-bottom: 2px; }
+  .contact { color: #444; font-size: 9.5pt; }
+  ul { margin: 4px 0 8px 18px; padding: 0; }
+  .role { display: flex; justify-content: space-between; font-weight: bold; }
+</style></head>
+<body>
+<h1>{{NAME}}</h1>
+<div class="contact">{{CONTACT}}</div>
+<h2>Summary</h2><p>{{SUMMARY}}</p>
+<h2>Skills</h2><p>{{SKILLS}}</p>
+<h2>Experience</h2>{{EXPERIENCE_HTML}}
+<h2>Education & Certifications</h2>{{EDUCATION_HTML}}
+</body></html>

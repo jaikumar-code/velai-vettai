@@ -1,0 +1,15 @@
+{
+  "maxEffortLevel": "medium",
+  "permissions": { "defaultMode": "acceptEdits" },
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:20128",
+    "ANTHROPIC_AUTH_TOKEN": "sk-1d76b827cb56eaf0-e62c21-084de848",
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_MODEL": "omniroute-free",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "omniroute-free",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "omniroute-free",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "omniroute-free",
+    "CLAUDE_CODE_MAX_CONTEXT_TOKENS": "131072",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  }
+}
